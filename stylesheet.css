@@ -1,0 +1,65 @@
+
+body {
+    background-color: #483C40;
+    color:#E9D079;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    font-family: 'Abril Fatface', cursive;
+    overflow: hidden;
+}
+
+#hi {
+    position: absolute;
+    left: 0;
+    bottom: 0vh;
+}
+
+h1 {
+    color: #E9D079;
+    font-size: 80vh;
+    margin: 0;
+    line-height: 0.8em;
+}
+
+#secondary{
+    margin-top: 5vh;
+    max-width: 600px;
+}
+
+#tertiary {
+    margin-top:25vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #E9D079;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 72px;
+    margin:0;
+}
+
+#plug {
+    position: absolute;
+    max-width: 600px;
+}
+
+#plugDiv {
+    position:relative;
+    margin-top:50vh;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #E9D079;
+}
