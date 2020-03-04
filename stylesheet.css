@@ -1,10 +1,32 @@
+@media (min-width: 1051px) {
+    #headlineDESKTOP{
+        display:block;
+    }
+    #headlineMOBILE{
+        display:none;
+    }
+}
+
+@media (max-width: 1050px) {
+    #headlineDESKTOP{
+        display:none;
+    }
+    #headlineMOBILE{
+        display:block;
+    }
+    h3 {
+        font-size:60vw;
+        color: #E9D079;
+        margin:0;
+        line-height:0.8em
+    }
+}
 
 body {
     background-color: #483C40;
     color:#E9D079;
 }
 #main {
-    width: 100vw;
     height: 100vh;
     max-height: 100vh;
     font-family: 'Abril Fatface', cursive;
